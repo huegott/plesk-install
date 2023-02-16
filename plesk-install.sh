@@ -1,6 +1,6 @@
 #/bin/bash
 
 
-wget https://autoinstall.plesk.com/plesk-installer /tmp
+wget https://autoinstall.plesk.com/plesk-installer /tmp/plesk
 chmod +x /tmp/plesk-install/plesk-install.sh
-/tmp/plesk-install --target /tmp/panel --select-release-latest --install-everything
+/tmp/plesk/plesk-installer --target /tmp/panel --select-release-latest --install-everything
