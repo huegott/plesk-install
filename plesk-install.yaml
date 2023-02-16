@@ -1,0 +1,11 @@
+#cloud-config
+
+
+packages:
+ 
+ 
+ 
+runcmd:
+- git clone https://github.com/huegott/plesk-install /tmp/plesk-install
+- chmod +x /tmp/plesk-install/plesk-install.sh
+- /tmp/plesk-install/plesk-install.sh
